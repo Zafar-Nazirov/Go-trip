@@ -1,0 +1,115 @@
+@media(max-width:1200px) {
+  .tents {
+    max-width: 300px;
+  }
+
+  .backpack {
+    max-width: 300px;
+  }
+
+  .block1 {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    padding: 33px 15px;
+  }
+
+  .contacts {
+    padding: 0 15px;
+  }
+}
+
+@media(max-width:992px) {
+  .block {
+    flex-wrap: wrap;
+    max-width: 545px;
+    margin: 50px auto;
+  }
+}
+
+@media(max-width:768px) {
+  .bob {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 50px;
+  }
+  
+  .banner{
+    height: 600px;
+  }
+
+  .con {
+    text-align: center;
+  }
+
+  .put {
+    max-width: 350px;
+    text-align: center;
+  }
+
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .contacts{
+    margin-top: 50px;
+  }
+  
+  .bob{
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+
+
+@media(max-width:576px) {
+  .block__img {
+    width: 100%;
+  }
+  
+  .travel{
+    font-size: 30px;
+  }
+  
+  .go{
+    font-size: 70px;
+  }
+  
+  .banner{
+    height: 500px;
+  }
+  .block{
+    margin-top: 30px;
+  }
+  
+  .store{
+    margin-top: 30px;
+  }
+}
+
+@media(max-width:375px) {
+  .put{
+    width: 250px;
+  }
+  
+  .block1{
+    align-items: center;
+    padding: 0;
+  }
+  
+  .travel{
+    font-size: 25px;
+  }
+  
+  .go{
+    font-size: 65px;
+  }
+  
+  .more{
+    padding: 12px 70px;
+  }
+  
+}
